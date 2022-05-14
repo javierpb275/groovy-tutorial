@@ -1,6 +1,10 @@
+
 class App {
     static void main(args) {
-        println "Hello World!";
-        print "Hello World!";
+        Fruit fruit1 = new Fruit();
+        fruit1.setName('apple');
+        fruit1.setColor('red');
+        fruit1.getName();
+        fruit1.getColor();
     }
 }
