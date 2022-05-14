@@ -1,12 +1,11 @@
 class App {
     static void main(args) {
-        Dog dog1 = new Dog();
-
-        dog1.name= "Dog";
-        dog1.breed = "German Shephered";
-        dog1.moves();
-        dog1.dogName = "Snoopy";
-        dog1.plays();
-        dog1.eats();
+        Toyota toyota1 = new Toyota();
+        toyota1.name = "Toyota";
+        toyota1.model = 2020;
+        toyota1.color = "blue";
+        toyota1.topSpeed = 250;
+        toyota1.startEngine();
+        toyota1.topSpeed();
     }
 }
